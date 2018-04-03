@@ -1,0 +1,44 @@
+{
+  "name": "MRJInputView",
+  "version": "0.1.0",
+  "summary": "A short description of MRJInputView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mrjlovetian@gmail.com/MRJInputView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mrjlovetian@gmail.com": "mrjlovetian@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mrjlovetian@gmail.com/MRJInputView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MRJInputView/Classes/**/*",
+  "resource_bundles": {
+    "MRJInputView": [
+      "MRJInputView/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "MRJTool": [
+      "~> 0.1.1"
+    ],
+    "UIViewMRJFrame": [
+
+    ],
+    "MRJUIColorAdditions": [
+
+    ],
+    "DWTagList": [
+
+    ],
+    "MRJAttributedMarkup": [
+
+    ]
+  }
+}

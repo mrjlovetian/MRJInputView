@@ -1,0 +1,6 @@
+framework module Pods_MRJInputView_Tests {
+  umbrella header "Pods-MRJInputView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

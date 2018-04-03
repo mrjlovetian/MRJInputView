@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MRJInputView_Example' do
+  pod 'MRJInputView', :path => '../'
+
+  target 'MRJInputView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

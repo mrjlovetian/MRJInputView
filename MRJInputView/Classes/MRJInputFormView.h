@@ -1,5 +1,5 @@
 //
-//  InputFormView.h
+//  MRJInputFormView
 //  MRJInputView
 //
 //  Created by 余洪江 on 14/12/21.
@@ -7,14 +7,14 @@
 //
 
 #import "FillFormBase.h"
-#import "DWTagList.h"
 
-@interface InputFormView : FillFormBase
+
+@interface MRJInputFormView : FillFormBase
 
 @property (nonatomic, strong) UISwitch *switchView;
 @property (nonatomic, strong) UISegmentedControl *segmentedControl;
 @property (nonatomic, strong) UIButton *btnClose;//展开收起
-@property (nonatomic, strong) DWTagList *tagListView;
+
 
 /// 一行点击输入初始化
 - (void)setArrowViewWithTitle:(NSString *)title placeholder:(NSString *)placeholder onClicked:(void (^)(FillFormBase *))onclick;
@@ -48,6 +48,6 @@
 - (void)setTipsText:(NSString *_Nullable)tips;
 - (void)setTipsAttributedText:(NSAttributedString *_Nullable)tips;
 
-- (void)setTagList:(NSArray *)tagList;
+- (void)setTagList:(NSArray *_Nullable)tagList;
 
 @end

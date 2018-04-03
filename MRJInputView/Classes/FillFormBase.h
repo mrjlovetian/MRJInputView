@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "ClickColorView.h"
-#import "NSString+MRJAttributedMarkup.h"
 
 @interface FillFormBase : ClickColorView
 {

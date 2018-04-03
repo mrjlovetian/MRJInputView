@@ -12,7 +12,7 @@
 
 #import "ClickColorView.h"
 #import "FillFormBase.h"
-#import "InputFormView.h"
+#import "MRJInputFormView.h"
 
 FOUNDATION_EXPORT double MRJInputViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char MRJInputViewVersionString[];

@@ -1,17 +1,18 @@
 //
-//  InputFormView.m
+//  MRJInputFormView
 //  MRJInputView
 //
 //  Created by 余洪江 on 14/12/21.
 //  Copyright (c) 2018年 MRJ. All rights reserved.
 //
 
-#import "InputFormView.h"
+#import "MRJInputFormView.h"
 #import "Macro.h"
 #import "UIView+MRJFrame.h"
 #import "UIColor+MRJAdditions.h"
+#import "DWTagList.h"
 
-@interface InputFormView()
+@interface MRJInputFormView()
 {
     UIView *_tipsView;
     UIImageView *_tipsIconView;
@@ -19,12 +20,13 @@
 }
 
 @property (nonatomic, strong) UILabel *lbtips;//提示语
+@property (nonatomic, strong) DWTagList *tagListView;
 @property (nonatomic, copy) void (^onButtonCloseClicked)(UIButton *btnClose, BOOL isClose);
 
 @end
 
 
-@implementation InputFormView
+@implementation MRJInputFormView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
@@ -52,7 +54,7 @@
     self.lineView.left = Edge;
 }
 
-///一行点击输入初始化，有tips
+/// 一行点击输入初始化，有tips
 - (void)setArrowViewWithTitle:(NSString *)title placeholder:(NSString *)placeholder
                     tipsText:(NSString *)tips
                    onClicked:(void (^)(FillFormBase *))onclick {
@@ -83,7 +85,7 @@
 - (void)setText1:(NSString *)upTxt text2:(NSString *)downTxt {
     self.textField.text = upTxt;
     [self.lbtips removeFromSuperview];
-    if (MF_isStringNull(downTxt)) {
+    if (downTxt == nil || downTxt.length == 0 || [downTxt isEqualToString:@"(null)"]) {
         self.textField.top = 1;
         return;
     }
@@ -172,7 +174,7 @@
 - (void)initTipsView {
     if (!_tipsView){
         _tipsView = [[UILabel alloc] initWithFrame:CGRectMake(0, 18, self.width, 20)];
-        NSURL *boundleUrl = [[NSBundle bundleForClass:[InputFormView class]] URLForResource:@"MRJInputView" withExtension:@"bundle"];
+        NSURL *boundleUrl = [[NSBundle bundleForClass:[MRJInputFormView class]] URLForResource:@"MRJInputView" withExtension:@"bundle"];
         NSBundle *citysBundle = [NSBundle bundleWithURL:boundleUrl];
         UIImage *image = [UIImage imageNamed:[citysBundle pathForResource:@"info_ico@2x" ofType:@"png"]];
         _tipsIconView = [[UIImageView alloc] initWithImage:image];
@@ -312,7 +314,7 @@
         [_btnClose setTitleColor:[UIColor colorWithHexString:@"999999"] forState:UIControlStateNormal];
         
         UIImageView *_srcImView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
-        NSURL *boundleUrl = [[NSBundle bundleForClass:[InputFormView class]] URLForResource:@"MRJInputView" withExtension:@"bundle"];
+        NSURL *boundleUrl = [[NSBundle bundleForClass:[MRJInputFormView class]] URLForResource:@"MRJInputView" withExtension:@"bundle"];
         NSBundle *citysBundle = [NSBundle bundleWithURL:boundleUrl];
         UIImage *image = [UIImage imageNamed:[citysBundle pathForResource:@"arrow_gray_up@2x" ofType:@"png"]];
         _srcImView.image =image;

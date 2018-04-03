@@ -1,9 +1,9 @@
 {
   "name": "MRJInputView",
   "version": "0.1.0",
-  "summary": "A short description of MRJInputView.",
+  "summary": "文本多样性输入框",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/mrjlovetian@gmail.com/MRJInputView",
+  "homepage": "https://github.com/mrjlovetian/MRJInputView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "mrjlovetian@gmail.com": "mrjlovetian@gmail.com"
   },
   "source": {
-    "git": "https://github.com/mrjlovetian@gmail.com/MRJInputView.git",
+    "git": "https://github.com/mrjlovetian/MRJInputView.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "MRJTool": [
-      "~> 0.1.1"
+
     ],
     "UIViewMRJFrame": [
 

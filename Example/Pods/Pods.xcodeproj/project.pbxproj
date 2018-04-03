@@ -11,52 +11,52 @@
 		05497E7C46BA4F6C9D8915EAA1DEFA6A /* MRJHotspotLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1B7EB316724EBD64B556F2956D43CF /* MRJHotspotLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		069E5713B4A8CAE2370686AF026BC624 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC5494D4DD935A8643F33D9B5483C78 /* QuartzCore.framework */; };
 		0EE395925CD12373137AC063D87E58F8 /* MRJAttributedStyleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8BAD1716BE829FECC3996505D03E2E /* MRJAttributedStyleAction.m */; };
-		1163072CDC581CE83A795F9C38BB1335 /* zs_ico_btico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25027D978CD9E35D057C58D30087214C /* zs_ico_btico@2x.png */; };
+		1163072CDC581CE83A795F9C38BB1335 /* zs_ico_btico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 747ADB81F6800CF7DF50C8B8F8BC7898 /* zs_ico_btico@2x.png */; };
 		131C37212EFBB241D8DFEC99D003510A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7FDD2C3319AA4340049338097193F1 /* Foundation.framework */; };
+		184B387C8E1A706D7F676A91FE18B2C2 /* ClickColorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB4BB072630088F39AC2DB855C3C08C /* ClickColorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A070586FC995B28A62B70D82CD3B0AE /* UIViewMRJFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4392EC72A3C2EAAC2894B488AE6839AD /* UIViewMRJFrame-dummy.m */; };
-		1DE03C531343562FCB72B5D9D6B70B6D /* InputFormView.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0C7F44EE040AD0DD5438568F4A21CD /* InputFormView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DE12D8AE4C8A7FB1572D73678A03C7C /* MRJAttributedStyleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1029DC3DCE18CC8CD5EAA51DC9913F /* MRJAttributedStyleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22700A0DF0EA8E17BD544A127D2DF84C /* UIColor+MRJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1BBF64AED024EAB192F4DC65E65F33 /* UIColor+MRJAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		287CED06029BCDA241C7763E5047B3B3 /* Pods-MRJInputView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD121A3B7D885FCEC21ED13CA51935A /* Pods-MRJInputView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2985681520CF496124A6776BD7F1E33E /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A4C8257737776DBF5DAAE3C6D0F54 /* arrow@2x.png */; };
+		2985681520CF496124A6776BD7F1E33E /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1126A89921428086458E6725437F9 /* arrow@2x.png */; };
 		318941F5FDA5E1085B00174419541AC2 /* MRJHotspotLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560F442029B91E994077C4EEDA99B09 /* MRJHotspotLabel.m */; };
 		33ACF6D9C8FF518A346091E612B3CF48 /* NSString+MRJAttributedMarkup.h in Headers */ = {isa = PBXBuildFile; fileRef = ABEEFA60823AC55983973B32C3DE4832 /* NSString+MRJAttributedMarkup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34EF09F20C98B5ED59038ADEBFA3D3CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7FDD2C3319AA4340049338097193F1 /* Foundation.framework */; };
-		3C07D91BF3FA468A2007C8E90D38D890 /* info_ico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AFF4BE314B91A43436D571BB6B6D82 /* info_ico@2x.png */; };
+		3C07D91BF3FA468A2007C8E90D38D890 /* info_ico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A5A61C19FA0DB62DCC12A336870907 /* info_ico@2x.png */; };
+		4EEB0F115128867FB51AFC81C571463A /* MRJInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3064164264A34F3FADEBC823F746D44 /* MRJInputView-dummy.m */; };
 		51822156FAE7CAA6F8F15BFCB86A8F11 /* MRJAttributedMarkup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 575ECC8E4EF029B8FCF6FE99C8EDE760 /* MRJAttributedMarkup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55B2733611F6B60FAA703797A871F293 /* Pods-MRJInputView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 864CC20BF7A2C9A21739CCCEA5ECF835 /* Pods-MRJInputView_Example-dummy.m */; };
 		5C56D29329C673CA6BEE0C22F6D33D0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7FDD2C3319AA4340049338097193F1 /* Foundation.framework */; };
 		5EC7319E6A44466BA9FF5ABC59A78444 /* DWTagList.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EC5C592C14C33742DB226B8F37CC2FA /* DWTagList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F27F5B4717F56BB9A4E546AD60613ED /* MRJInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6524ED7EA8A5C737F1401CBE128B5EFD /* MRJInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67721B6D370F75B8768983333F666A43 /* InputFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E0DA182B100EB1993701A9BDD6A8B5 /* InputFormView.m */; };
 		6B3DCD13760D41A7390CCB9030B7B2E5 /* DWTagList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0122B2FD46D94A2A5FC0B6ACF47CFFC1 /* DWTagList-dummy.m */; };
 		6BD8409B3F0FE152703B0E4C705F9EFC /* UIViewMRJFrame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35C02425AA31B8B3AE3770F49B75F35D /* UIViewMRJFrame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DF05666D404BBE5110CDA28DD1394D7 /* MRJUIColorAdditions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A902CAD55C1D9D6EFD71E6A5A91978 /* MRJUIColorAdditions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7347B8B6BB5F5CE0127A9E3428DCD14B /* UIViewMRJFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F69B9A6E3F7A50C383BAAC24F509C8B /* UIViewMRJFrame.framework */; };
-		74F119C084141EBF667188CA54D2E1B5 /* MRJInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CFAF696FC20CE11397F8A3C839311 /* MRJInputView-dummy.m */; };
 		750D197C48CC70903886F2FFA4BF9686 /* DWTagList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 671F9F7B547ABBD61774CBB184F3738F /* DWTagList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75488D95B7AA5FEC735AA7CC6987D86E /* MRJInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8E0A856209223BABEB7AA1A1C866DC /* MRJInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C24446D82C032E15D5D50FBB1830026 /* MRJInputView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 945B1AB79860D3083A17B846E321E8E7 /* MRJInputView.bundle */; };
 		7FB9DC853FD1FA3E60254E13966A0B06 /* NSMutableString+MRJTagReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = F39E0D0416C0B5B00D91D23449CC7278 /* NSMutableString+MRJTagReplace.m */; };
 		8791F29DEC0692DE651335749293505B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7FDD2C3319AA4340049338097193F1 /* Foundation.framework */; };
-		972505FAE8E2A2F1829724C468FC2E0F /* FillFormBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B7F5C6D54B0D93A79E7FA771C0E1ED2 /* FillFormBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AFA301A2BDB096C93D3DBE05FE49E59 /* ClickColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD43854E37549DAB0524F010DB4493 /* ClickColorView.m */; };
 		98425B369CEF08979976718881FBF8C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7FDD2C3319AA4340049338097193F1 /* Foundation.framework */; };
-		A3ED4A8BA751FB0581F70CA2B1DB9545 /* ClickColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF5968D3DE9255B179B84F8D0E7173E /* ClickColorView.m */; };
 		A88CD85AF5DBFCA60222A4A90B0A6706 /* DWTagList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BBC8CC5AAF6E6D8356BF62D7FB2362 /* DWTagList.framework */; };
-		ADC27261195F78D28168FE39A0BFAAA7 /* ClickColorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 781749A11D256C1C533B5485E40274E9 /* ClickColorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF2EBDCA7B20A67F389C567323D105C5 /* MRJAttributedMarkup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B1EFADFDA3F4B6B0BF16FB02A9C446 /* MRJAttributedMarkup.framework */; };
 		B439BAD6E284CF7824E7E62E74CC9063 /* Pods-MRJInputView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35CF1BEB8659B26ECE47158B39E88F /* Pods-MRJInputView_Tests-dummy.m */; };
 		B7B956C0AF92534F3BFE6066D4C6BF28 /* UIView+MRJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 43983AD94D6C6591416401CE3D27906D /* UIView+MRJFrame.m */; };
+		B8F81A93FC0EB8C1BDB0C603D18F27E3 /* MRJInputFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BE2F039C9A640D70C8845FF2CEF6B7 /* MRJInputFormView.m */; };
 		CC6362EF37E35E3CF1524B3C1F70B2A6 /* NSMutableString+MRJTagReplace.h in Headers */ = {isa = PBXBuildFile; fileRef = 067201ECAC0CAAF8A952DB80F0B015F0 /* NSMutableString+MRJTagReplace.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC8DA93CBBC3788669D56672E90B0032 /* MRJUIColorAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BBF1519B6B4E9650E173FDBCB4EA1E /* MRJUIColorAdditions-dummy.m */; };
 		CDBFF8FB9B0A3AF25F754F768FD3506C /* UIColor+MRJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FDE0976C55C46185264D2AC6D123C8 /* UIColor+MRJAdditions.m */; };
+		CEB66AC5DF037B76ADCB3447FF53990F /* MRJInputFormView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8DD5EBF119DA432DDB5B39F0C319B1 /* MRJInputFormView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8B679D91409871D236355D153FE9E89 /* Pods-MRJInputView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B609A8335A802164B7AB6241536DE4 /* Pods-MRJInputView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC0FEBC5EF48A87D47106079DCB099EC /* DWTagList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9CD3E7D9163B42ECA4792A40A71D89 /* DWTagList.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E0A581EC839C21BC3818BA3B241022BA /* MRJAttributedMarkup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8352FE6286CF106D3F7247AF77954 /* MRJAttributedMarkup-dummy.m */; };
 		E39BE4B369002F73DA1FACCFEE066545 /* NSString+MRJAttributedMarkup.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A62574C9C516FE3523B2B31DF45120 /* NSString+MRJAttributedMarkup.m */; };
-		E4871FD6CBF16D73BFD2817D1C4B56DE /* arrow_gray_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8E5DFE6A783B3811F6C63F13DD99AC /* arrow_gray_up@2x.png */; };
+		E4871FD6CBF16D73BFD2817D1C4B56DE /* arrow_gray_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD6FAFCDFD299376E76522A7C41EFFB /* arrow_gray_up@2x.png */; };
 		F05E0A25875DBFD06D2FBCAF5075EECB /* UIView+MRJFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = BCF5C376FE8B79CE7BBF683B66EF9F63 /* UIView+MRJFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F84B85DA134EC194FA30877632C85AE0 /* FillFormBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 18364170E2E548A6915AC8E819F887FE /* FillFormBase.m */; };
 		F882640F48317241AF1199DE7140A4F2 /* MRJUIColorAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE62F5564FE1A8C4CA9C8846440EA61 /* MRJUIColorAdditions.framework */; };
+		FB019FB190721BEDCAAD306F64193218 /* FillFormBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E9CE697B591BE778C801F74223F0E1 /* FillFormBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBCF98432C8228B5C75FE60AB51DD867 /* FillFormBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BA57F96B286E54241E669D63FBDBED60 /* FillFormBase.m */; };
 		FF5980AD376E838D7287C168F5B3D013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7FDD2C3319AA4340049338097193F1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -137,99 +137,99 @@
 		010EB31B65F0757F74C2130FE26E2673 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0122B2FD46D94A2A5FC0B6ACF47CFFC1 /* DWTagList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DWTagList-dummy.m"; sourceTree = "<group>"; };
 		01FDE0976C55C46185264D2AC6D123C8 /* UIColor+MRJAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MRJAdditions.m"; path = "MRJUIColorAdditions/Classes/UIColor+MRJAdditions.m"; sourceTree = "<group>"; };
+		05A5A61C19FA0DB62DCC12A336870907 /* info_ico@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "info_ico@2x.png"; path = "MRJInputView/Assets/info_ico@2x.png"; sourceTree = "<group>"; };
 		067201ECAC0CAAF8A952DB80F0B015F0 /* NSMutableString+MRJTagReplace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableString+MRJTagReplace.h"; path = "MRJAttributedMarkup/Classes/MRJAttributedMarkup+Category/NSMutableString+MRJTagReplace.h"; sourceTree = "<group>"; };
+		06B97F3103FC99E1CFCE914D23359E25 /* MRJInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MRJInputView.modulemap; sourceTree = "<group>"; };
 		08E905DA67D7CB54E3F33C4BBF948474 /* Pods-MRJInputView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRJInputView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0920014B8A2717DFC7CF2A3370C575E8 /* UIViewMRJFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIViewMRJFrame.framework; path = UIViewMRJFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB51D6151EF8FE2A974AF03509C81BB /* ScreenMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScreenMacro.h; path = MRJTool/Classes/Marco/ScreenMacro.h; sourceTree = "<group>"; };
 		0CC5494D4DD935A8643F33D9B5483C78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		10D101E4E3707640690DF76968C9A927 /* ResourceBundle-MRJInputView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MRJInputView-Info.plist"; sourceTree = "<group>"; };
 		1661C3C74DD6794D2D28DE5F643B82D2 /* UIViewMRJFrame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewMRJFrame-prefix.pch"; sourceTree = "<group>"; };
-		18364170E2E548A6915AC8E819F887FE /* FillFormBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FillFormBase.m; path = MRJInputView/Classes/FillFormBase.m; sourceTree = "<group>"; };
 		192ADDC281CDEF6A683CB003D5032086 /* Pods-MRJInputView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRJInputView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		19FF2325E70676F98EE613914A53557D /* Pods-MRJInputView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRJInputView_Tests-resources.sh"; sourceTree = "<group>"; };
 		1A1B7EB316724EBD64B556F2956D43CF /* MRJHotspotLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRJHotspotLabel.h; path = MRJAttributedMarkup/Classes/MRJAttributedMarkup/MRJHotspotLabel.h; sourceTree = "<group>"; };
+		1B8DD5EBF119DA432DDB5B39F0C319B1 /* MRJInputFormView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRJInputFormView.h; path = MRJInputView/Classes/MRJInputFormView.h; sourceTree = "<group>"; };
 		1CC8352FE6286CF106D3F7247AF77954 /* MRJAttributedMarkup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRJAttributedMarkup-dummy.m"; sourceTree = "<group>"; };
 		200415F7544B2CD12D78E0FAB14D9E24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20B71F837BFD2E4EB4907BC6AAD26768 /* Pods_MRJInputView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MRJInputView_Tests.framework; path = "Pods-MRJInputView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		215A4C8257737776DBF5DAAE3C6D0F54 /* arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow@2x.png"; path = "MRJInputView/Assets/arrow@2x.png"; sourceTree = "<group>"; };
-		25027D978CD9E35D057C58D30087214C /* zs_ico_btico@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "zs_ico_btico@2x.png"; path = "MRJInputView/Assets/zs_ico_btico@2x.png"; sourceTree = "<group>"; };
-		2E76C5B41AAE8AD1B92396C197CEFD7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E9CD3E7D9163B42ECA4792A40A71D89 /* DWTagList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DWTagList.m; path = DWTagList/Classes/DWTagList.m; sourceTree = "<group>"; };
 		30838A32577C7227EEB7193C3752C2F6 /* UIViewMRJFrame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UIViewMRJFrame.modulemap; sourceTree = "<group>"; };
-		32AFF4BE314B91A43436D571BB6B6D82 /* info_ico@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "info_ico@2x.png"; path = "MRJInputView/Assets/info_ico@2x.png"; sourceTree = "<group>"; };
 		3421821F77D4742369B95C59AFA00069 /* Pods-MRJInputView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MRJInputView_Tests.modulemap"; sourceTree = "<group>"; };
 		35C02425AA31B8B3AE3770F49B75F35D /* UIViewMRJFrame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewMRJFrame-umbrella.h"; sourceTree = "<group>"; };
+		37E9CE697B591BE778C801F74223F0E1 /* FillFormBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FillFormBase.h; path = MRJInputView/Classes/FillFormBase.h; sourceTree = "<group>"; };
 		39FF520D0E6ED2588CCA64EC59291733 /* UIViewMRJFrame.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIViewMRJFrame.xcconfig; sourceTree = "<group>"; };
 		3B2D7901CA3A420CF92D6895C28DEECE /* MRJInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRJInputView.framework; path = MRJInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D91F68141D7A58464FBBA8BA4B0CF05 /* MRJAttributedMarkup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MRJAttributedMarkup.modulemap; sourceTree = "<group>"; };
 		3EC5C592C14C33742DB226B8F37CC2FA /* DWTagList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DWTagList.h; path = DWTagList/Classes/DWTagList.h; sourceTree = "<group>"; };
 		41A902CAD55C1D9D6EFD71E6A5A91978 /* MRJUIColorAdditions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJUIColorAdditions-umbrella.h"; sourceTree = "<group>"; };
-		436CFAF696FC20CE11397F8A3C839311 /* MRJInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRJInputView-dummy.m"; sourceTree = "<group>"; };
 		4392EC72A3C2EAAC2894B488AE6839AD /* UIViewMRJFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewMRJFrame-dummy.m"; sourceTree = "<group>"; };
 		43983AD94D6C6591416401CE3D27906D /* UIView+MRJFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MRJFrame.m"; path = "UIViewMRJFrame/Classes/UIView+MRJFrame.m"; sourceTree = "<group>"; };
 		4560F442029B91E994077C4EEDA99B09 /* MRJHotspotLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRJHotspotLabel.m; path = MRJAttributedMarkup/Classes/MRJAttributedMarkup/MRJHotspotLabel.m; sourceTree = "<group>"; };
-		45BBCD8FBA67D4578A43820ECCB04538 /* MRJInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRJInputView.xcconfig; sourceTree = "<group>"; };
 		4747ACF35D3309C64A0BA36CF5F4AF0B /* DWTagList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DWTagList.framework; path = DWTagList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49945D2B3A475AE221B17D9095221A64 /* ClassMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClassMacro.h; path = MRJTool/Classes/Marco/ClassMacro.h; sourceTree = "<group>"; };
+		4BB4BB072630088F39AC2DB855C3C08C /* ClickColorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClickColorView.h; path = MRJInputView/Classes/ClickColorView.h; sourceTree = "<group>"; };
 		4D8BAD1716BE829FECC3996505D03E2E /* MRJAttributedStyleAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRJAttributedStyleAction.m; path = MRJAttributedMarkup/Classes/MRJAttributedMarkup/MRJAttributedStyleAction.m; sourceTree = "<group>"; };
 		5000B5F9DCE6B258F4B46129204C82FB /* MRJUIColorAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRJUIColorAdditions.framework; path = MRJUIColorAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		575ECC8E4EF029B8FCF6FE99C8EDE760 /* MRJAttributedMarkup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJAttributedMarkup-umbrella.h"; sourceTree = "<group>"; };
-		57E0DA182B100EB1993701A9BDD6A8B5 /* InputFormView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InputFormView.m; path = MRJInputView/Classes/InputFormView.m; sourceTree = "<group>"; };
 		59BBF1519B6B4E9650E173FDBCB4EA1E /* MRJUIColorAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRJUIColorAdditions-dummy.m"; sourceTree = "<group>"; };
 		5A3A81241BDAE1FB733EC95F3BE78AB7 /* DWTagList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DWTagList.modulemap; sourceTree = "<group>"; };
-		6524ED7EA8A5C737F1401CBE128B5EFD /* MRJInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJInputView-umbrella.h"; sourceTree = "<group>"; };
 		671F9F7B547ABBD61774CBB184F3738F /* DWTagList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DWTagList-umbrella.h"; sourceTree = "<group>"; };
 		6A1E1FF5D6646A05794AF5E423E0A667 /* MRJUIColorAdditions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MRJUIColorAdditions.modulemap; sourceTree = "<group>"; };
-		6D8E5DFE6A783B3811F6C63F13DD99AC /* arrow_gray_up@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_gray_up@2x.png"; path = "MRJInputView/Assets/arrow_gray_up@2x.png"; sourceTree = "<group>"; };
 		6F3A48181C7F4A0A125825ECED3303C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F7FDD2C3319AA4340049338097193F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		704DDB6E95FECC0C980F14D4C4BB4BB6 /* Pods_MRJInputView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MRJInputView_Example.framework; path = "Pods-MRJInputView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B1EFADFDA3F4B6B0BF16FB02A9C446 /* MRJAttributedMarkup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MRJAttributedMarkup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A03932A331728CA0A6B3CDBEF02023 /* Pods-MRJInputView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRJInputView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		781749A11D256C1C533B5485E40274E9 /* ClickColorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClickColorView.h; path = MRJInputView/Classes/ClickColorView.h; sourceTree = "<group>"; };
+		747ADB81F6800CF7DF50C8B8F8BC7898 /* zs_ico_btico@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "zs_ico_btico@2x.png"; path = "MRJInputView/Assets/zs_ico_btico@2x.png"; sourceTree = "<group>"; };
 		78A62574C9C516FE3523B2B31DF45120 /* NSString+MRJAttributedMarkup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MRJAttributedMarkup.m"; path = "MRJAttributedMarkup/Classes/MRJAttributedMarkup+Category/NSString+MRJAttributedMarkup.m"; sourceTree = "<group>"; };
 		791C53F1A63485AEF17B81F64D1D1E8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8E0A856209223BABEB7AA1A1C866DC /* MRJInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJInputView-umbrella.h"; sourceTree = "<group>"; };
 		857646187765673EAA8515C5358075AF /* Pods-MRJInputView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRJInputView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		858C03368334EAD5E6B9818C7BE37071 /* StringMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringMacro.h; path = MRJTool/Classes/Marco/StringMacro.h; sourceTree = "<group>"; };
 		864CC20BF7A2C9A21739CCCEA5ECF835 /* Pods-MRJInputView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRJInputView_Example-dummy.m"; sourceTree = "<group>"; };
+		8DA1126A89921428086458E6725437F9 /* arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow@2x.png"; path = "MRJInputView/Assets/arrow@2x.png"; sourceTree = "<group>"; };
 		8DA72D4164629259A639B8EFAB764D97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E0E25FBEBA165912B30C23393EDD2AF /* MRJInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MRJInputView.modulemap; sourceTree = "<group>"; };
 		8E5988939B6E64F1DE29925E9C760DA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EE62F5564FE1A8C4CA9C8846440EA61 /* MRJUIColorAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MRJUIColorAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F69B9A6E3F7A50C383BAAC24F509C8B /* UIViewMRJFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIViewMRJFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E9E0A23A42CE8A382795DFB6C7001A /* ColorMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorMacro.h; path = MRJTool/Classes/Marco/ColorMacro.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		945B1AB79860D3083A17B846E321E8E7 /* MRJInputView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MRJInputView.bundle; path = MRJInputView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B7F5C6D54B0D93A79E7FA771C0E1ED2 /* FillFormBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FillFormBase.h; path = MRJInputView/Classes/FillFormBase.h; sourceTree = "<group>"; };
 		A43BCFA5EF127946FF7382FF9427B187 /* Pods-MRJInputView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRJInputView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AAD121A3B7D885FCEC21ED13CA51935A /* Pods-MRJInputView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRJInputView_Example-umbrella.h"; sourceTree = "<group>"; };
-		AAF5968D3DE9255B179B84F8D0E7173E /* ClickColorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClickColorView.m; path = MRJInputView/Classes/ClickColorView.m; sourceTree = "<group>"; };
 		ABEEFA60823AC55983973B32C3DE4832 /* NSString+MRJAttributedMarkup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MRJAttributedMarkup.h"; path = "MRJAttributedMarkup/Classes/MRJAttributedMarkup+Category/NSString+MRJAttributedMarkup.h"; sourceTree = "<group>"; };
 		AC1BBF64AED024EAB192F4DC65E65F33 /* UIColor+MRJAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MRJAdditions.h"; path = "MRJUIColorAdditions/Classes/UIColor+MRJAdditions.h"; sourceTree = "<group>"; };
-		B244E9EA9E100DF0CE976A3D1F8ADA1E /* MRJInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJInputView-prefix.pch"; sourceTree = "<group>"; };
 		B4B609A8335A802164B7AB6241536DE4 /* Pods-MRJInputView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRJInputView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B4BBC8CC5AAF6E6D8356BF62D7FB2362 /* DWTagList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DWTagList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70A2C5A0A4ABC03B337DACDC7B2D7E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8267784BFEF05ED743034861D188060 /* MRJAttributedMarkup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJAttributedMarkup-prefix.pch"; sourceTree = "<group>"; };
+		BA57F96B286E54241E669D63FBDBED60 /* FillFormBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FillFormBase.m; path = MRJInputView/Classes/FillFormBase.m; sourceTree = "<group>"; };
 		BCF5C376FE8B79CE7BBF683B66EF9F63 /* UIView+MRJFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MRJFrame.h"; path = "UIViewMRJFrame/Classes/UIView+MRJFrame.h"; sourceTree = "<group>"; };
 		BD3E45718F917774F06C67657D565968 /* PropetyMarco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PropetyMarco.h; path = MRJTool/Classes/Marco/PropetyMarco.h; sourceTree = "<group>"; };
 		BF1029DC3DCE18CC8CD5EAA51DC9913F /* MRJAttributedStyleAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRJAttributedStyleAction.h; path = MRJAttributedMarkup/Classes/MRJAttributedMarkup/MRJAttributedStyleAction.h; sourceTree = "<group>"; };
 		C7F0EB83615BE112C8DB48FA08983CBF /* Pods-MRJInputView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRJInputView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C83A6D58910650BDB95800DCA0E5023D /* DWTagList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DWTagList-prefix.pch"; sourceTree = "<group>"; };
+		C8BE2F039C9A640D70C8845FF2CEF6B7 /* MRJInputFormView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRJInputFormView.m; path = MRJInputView/Classes/MRJInputFormView.m; sourceTree = "<group>"; };
 		C9DB2B3CC257D7825E4D670FBD4E6494 /* Pods-MRJInputView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRJInputView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CAD5D5FFB5E13C9ACF4C1DEBD28F0202 /* Pods-MRJInputView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRJInputView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CAFA29E181C9C8CB769687630EF4AFE1 /* Macro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Macro.h; path = MRJTool/Classes/Marco/Macro.h; sourceTree = "<group>"; };
 		CD05489164705112DBBF299636E995B5 /* MRJUIColorAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJUIColorAdditions-prefix.pch"; sourceTree = "<group>"; };
+		CDFD43854E37549DAB0524F010DB4493 /* ClickColorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClickColorView.m; path = MRJInputView/Classes/ClickColorView.m; sourceTree = "<group>"; };
 		D36D7BE2B133D3B52C3FB47C94EF81B5 /* Pods-MRJInputView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRJInputView_Example-resources.sh"; sourceTree = "<group>"; };
+		D6516E9B5AE2598F814416E6A1D18D2F /* MRJInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJInputView-prefix.pch"; sourceTree = "<group>"; };
 		D7A0DEA2EA21C4CADCE289E720A05078 /* Pods-MRJInputView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRJInputView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DA0C7F44EE040AD0DD5438568F4A21CD /* InputFormView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InputFormView.h; path = MRJInputView/Classes/InputFormView.h; sourceTree = "<group>"; };
+		D800B3198C72D8A2D60B71A6CD07A4B0 /* ResourceBundle-MRJInputView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MRJInputView-Info.plist"; sourceTree = "<group>"; };
 		DF35CF1BEB8659B26ECE47158B39E88F /* Pods-MRJInputView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRJInputView_Tests-dummy.m"; sourceTree = "<group>"; };
 		E0EDA4A7F94DE40B841A1B710B2348C9 /* Pods-MRJInputView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MRJInputView_Example.modulemap"; sourceTree = "<group>"; };
+		E3064164264A34F3FADEBC823F746D44 /* MRJInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRJInputView-dummy.m"; sourceTree = "<group>"; };
 		E90BEDF7A12FC5D54F120BBA663C46B6 /* DWTagList.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DWTagList.xcconfig; sourceTree = "<group>"; };
 		ED4F7B374E0F87F493F507C54B3024DD /* MRJAttributedMarkup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRJAttributedMarkup.framework; path = MRJAttributedMarkup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB7B412BEC0C8AF16D61B0E5389A263 /* IosVerionMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IosVerionMacro.h; path = MRJTool/Classes/Marco/IosVerionMacro.h; sourceTree = "<group>"; };
 		F39E0D0416C0B5B00D91D23449CC7278 /* NSMutableString+MRJTagReplace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableString+MRJTagReplace.m"; path = "MRJAttributedMarkup/Classes/MRJAttributedMarkup+Category/NSMutableString+MRJTagReplace.m"; sourceTree = "<group>"; };
+		F60941EB52B24F251B34E71071DB8ABF /* MRJInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRJInputView.xcconfig; sourceTree = "<group>"; };
 		F6F573EF152028317D0D8B2882FDB565 /* MRJAttributedMarkup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRJAttributedMarkup.xcconfig; sourceTree = "<group>"; };
 		F9863AB6135B56DFBA1DD4FBBB700835 /* Pods-MRJInputView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRJInputView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FAD6FAFCDFD299376E76522A7C41EFFB /* arrow_gray_up@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_gray_up@2x.png"; path = "MRJInputView/Assets/arrow_gray_up@2x.png"; sourceTree = "<group>"; };
 		FD250C67F6F2E0792A77CAE4541C4345 /* MRJUIColorAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRJUIColorAdditions.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -316,6 +316,17 @@
 			path = UIViewMRJFrame;
 			sourceTree = "<group>";
 		};
+		04DB434880524EB7B3E8360AD669BB49 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DA1126A89921428086458E6725437F9 /* arrow@2x.png */,
+				FAD6FAFCDFD299376E76522A7C41EFFB /* arrow_gray_up@2x.png */,
+				05A5A61C19FA0DB62DCC12A336870907 /* info_ico@2x.png */,
+				747ADB81F6800CF7DF50C8B8F8BC7898 /* zs_ico_btico@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		1646F1D7E97B6849DB52C8D0CA4F1732 /* MRJUIColorAdditions */ = {
 			isa = PBXGroup;
 			children = (
@@ -325,17 +336,6 @@
 			);
 			name = MRJUIColorAdditions;
 			path = MRJUIColorAdditions;
-			sourceTree = "<group>";
-		};
-		1A5188F8CECE932801C3AE7726598EE6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				215A4C8257737776DBF5DAAE3C6D0F54 /* arrow@2x.png */,
-				6D8E5DFE6A783B3811F6C63F13DD99AC /* arrow_gray_up@2x.png */,
-				32AFF4BE314B91A43436D571BB6B6D82 /* info_ico@2x.png */,
-				25027D978CD9E35D057C58D30087214C /* zs_ico_btico@2x.png */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		2882D56AC4DD621BF75DC4D9A99E3B9B /* DWTagList */ = {
@@ -400,10 +400,26 @@
 			);
 			sourceTree = "<group>";
 		};
+		89008E3648141B38CC1B8B64609EC2D5 /* MRJInputView */ = {
+			isa = PBXGroup;
+			children = (
+				4BB4BB072630088F39AC2DB855C3C08C /* ClickColorView.h */,
+				CDFD43854E37549DAB0524F010DB4493 /* ClickColorView.m */,
+				37E9CE697B591BE778C801F74223F0E1 /* FillFormBase.h */,
+				BA57F96B286E54241E669D63FBDBED60 /* FillFormBase.m */,
+				1B8DD5EBF119DA432DDB5B39F0C319B1 /* MRJInputFormView.h */,
+				C8BE2F039C9A640D70C8845FF2CEF6B7 /* MRJInputFormView.m */,
+				04DB434880524EB7B3E8360AD669BB49 /* Resources */,
+				E58889E313010EC312670639FA8A57B0 /* Support Files */,
+			);
+			name = MRJInputView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		8D13E2AA747DFC7FDA98177DC270E63B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				96E61C1550D5072456FDE46BBA444276 /* MRJInputView */,
+				89008E3648141B38CC1B8B64609EC2D5 /* MRJInputView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -421,37 +437,6 @@
 			);
 			name = MRJTool;
 			path = MRJTool;
-			sourceTree = "<group>";
-		};
-		96E61C1550D5072456FDE46BBA444276 /* MRJInputView */ = {
-			isa = PBXGroup;
-			children = (
-				781749A11D256C1C533B5485E40274E9 /* ClickColorView.h */,
-				AAF5968D3DE9255B179B84F8D0E7173E /* ClickColorView.m */,
-				9B7F5C6D54B0D93A79E7FA771C0E1ED2 /* FillFormBase.h */,
-				18364170E2E548A6915AC8E819F887FE /* FillFormBase.m */,
-				DA0C7F44EE040AD0DD5438568F4A21CD /* InputFormView.h */,
-				57E0DA182B100EB1993701A9BDD6A8B5 /* InputFormView.m */,
-				1A5188F8CECE932801C3AE7726598EE6 /* Resources */,
-				9B83329DDA4B3062ED1286F1056B72B9 /* Support Files */,
-			);
-			name = MRJInputView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		9B83329DDA4B3062ED1286F1056B72B9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2E76C5B41AAE8AD1B92396C197CEFD7E /* Info.plist */,
-				8E0E25FBEBA165912B30C23393EDD2AF /* MRJInputView.modulemap */,
-				45BBCD8FBA67D4578A43820ECCB04538 /* MRJInputView.xcconfig */,
-				436CFAF696FC20CE11397F8A3C839311 /* MRJInputView-dummy.m */,
-				B244E9EA9E100DF0CE976A3D1F8ADA1E /* MRJInputView-prefix.pch */,
-				6524ED7EA8A5C737F1401CBE128B5EFD /* MRJInputView-umbrella.h */,
-				10D101E4E3707640690DF76968C9A927 /* ResourceBundle-MRJInputView-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MRJInputView";
 			sourceTree = "<group>";
 		};
 		9BE2BC728F12C7808A5C92C7DECFA302 /* Support Files */ = {
@@ -581,6 +566,21 @@
 			path = MRJAttributedMarkup;
 			sourceTree = "<group>";
 		};
+		E58889E313010EC312670639FA8A57B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B70A2C5A0A4ABC03B337DACDC7B2D7E3 /* Info.plist */,
+				06B97F3103FC99E1CFCE914D23359E25 /* MRJInputView.modulemap */,
+				F60941EB52B24F251B34E71071DB8ABF /* MRJInputView.xcconfig */,
+				E3064164264A34F3FADEBC823F746D44 /* MRJInputView-dummy.m */,
+				D6516E9B5AE2598F814416E6A1D18D2F /* MRJInputView-prefix.pch */,
+				7E8E0A856209223BABEB7AA1A1C866DC /* MRJInputView-umbrella.h */,
+				D800B3198C72D8A2D60B71A6CD07A4B0 /* ResourceBundle-MRJInputView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MRJInputView";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -592,14 +592,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60453D3C786404423B5768882D0A8E42 /* Headers */ = {
+		587794003528DF8A15E9AD3700D0E6B7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADC27261195F78D28168FE39A0BFAAA7 /* ClickColorView.h in Headers */,
-				972505FAE8E2A2F1829724C468FC2E0F /* FillFormBase.h in Headers */,
-				1DE03C531343562FCB72B5D9D6B70B6D /* InputFormView.h in Headers */,
-				5F27F5B4717F56BB9A4E546AD60613ED /* MRJInputView-umbrella.h in Headers */,
+				184B387C8E1A706D7F676A91FE18B2C2 /* ClickColorView.h in Headers */,
+				FB019FB190721BEDCAAD306F64193218 /* FillFormBase.h in Headers */,
+				CEB66AC5DF037B76ADCB3447FF53990F /* MRJInputFormView.h in Headers */,
+				75488D95B7AA5FEC735AA7CC6987D86E /* MRJInputView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,10 +730,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B993FDDD0A53859F4D3473B086EACF1F /* Build configuration list for PBXNativeTarget "MRJInputView" */;
 			buildPhases = (
-				0148166804ACA5C60B913B67461471F3 /* Sources */,
+				AEEB285110A2C7855E3EF1BD8D4C7C17 /* Sources */,
 				867DD5F2605280E03306898352148DEE /* Frameworks */,
 				417502F3CF404B94556309D4BC4C8A35 /* Resources */,
-				60453D3C786404423B5768882D0A8E42 /* Headers */,
+				587794003528DF8A15E9AD3700D0E6B7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -856,17 +856,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0148166804ACA5C60B913B67461471F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A3ED4A8BA751FB0581F70CA2B1DB9545 /* ClickColorView.m in Sources */,
-				F84B85DA134EC194FA30877632C85AE0 /* FillFormBase.m in Sources */,
-				67721B6D370F75B8768983333F666A43 /* InputFormView.m in Sources */,
-				74F119C084141EBF667188CA54D2E1B5 /* MRJInputView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0E852433A3510D100E626A33C60D3F2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -918,6 +907,17 @@
 			files = (
 				6B3DCD13760D41A7390CCB9030B7B2E5 /* DWTagList-dummy.m in Sources */,
 				DC0FEBC5EF48A87D47106079DCB099EC /* DWTagList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEB285110A2C7855E3EF1BD8D4C7C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFA301A2BDB096C93D3DBE05FE49E59 /* ClickColorView.m in Sources */,
+				FBCF98432C8228B5C75FE60AB51DD867 /* FillFormBase.m in Sources */,
+				B8F81A93FC0EB8C1BDB0C603D18F27E3 /* MRJInputFormView.m in Sources */,
+				4EEB0F115128867FB51AFC81C571463A /* MRJInputView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1056,7 +1056,7 @@
 		};
 		2B79A287E2FB1A4AAF3FF5921C9F3FBF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45BBCD8FBA67D4578A43820ECCB04538 /* MRJInputView.xcconfig */;
+			baseConfigurationReference = F60941EB52B24F251B34E71071DB8ABF /* MRJInputView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MRJInputView";
@@ -1195,7 +1195,7 @@
 		};
 		52AEA4397637BF06C32E745784E07A72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45BBCD8FBA67D4578A43820ECCB04538 /* MRJInputView.xcconfig */;
+			baseConfigurationReference = F60941EB52B24F251B34E71071DB8ABF /* MRJInputView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1434,7 +1434,7 @@
 		};
 		8EBE663BC81A69E6244C2B39D7F0BB75 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45BBCD8FBA67D4578A43820ECCB04538 /* MRJInputView.xcconfig */;
+			baseConfigurationReference = F60941EB52B24F251B34E71071DB8ABF /* MRJInputView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MRJInputView";
@@ -1450,7 +1450,7 @@
 		};
 		924D9BC6913C4D011CBB5C90984AE4C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45BBCD8FBA67D4578A43820ECCB04538 /* MRJInputView.xcconfig */;
+			baseConfigurationReference = F60941EB52B24F251B34E71071DB8ABF /* MRJInputView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

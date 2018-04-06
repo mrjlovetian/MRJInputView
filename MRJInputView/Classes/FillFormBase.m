@@ -20,7 +20,7 @@
         [self initUI];
         self.backgroundColor = [UIColor whiteColor];
         self.userInteractionEnabled = YES;
-        [self addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(BtnClick:)] ];
+        [self addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(BtnClick:)]];
     }
     return self;
 }

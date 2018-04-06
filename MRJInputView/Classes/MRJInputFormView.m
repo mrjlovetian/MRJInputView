@@ -42,7 +42,7 @@
     return self;
 }
 
-- (void)setArrowViewWithTitle:(NSString *)title placeholder:(NSString *)placeholder onClicked:(void (^)(FillFormBase *))onclick {
+- (void)setArrowViewWithTitle:(NSString *)title placeholder:(NSString *)placeholder onClicked:(FillFormBlock)onclick {
     self.title = title;
     self.isMoreIcon = YES;
     self.isNecessary = NO;
@@ -57,7 +57,7 @@
 /// 一行点击输入初始化，有tips
 - (void)setArrowViewWithTitle:(NSString *)title placeholder:(NSString *)placeholder
                     tipsText:(NSString *)tips
-                   onClicked:(void (^)(FillFormBase *))onclick {
+                   onClicked:(FillFormBlock)onclick {
     [self setArrowViewWithTitle:title placeholder:placeholder onClicked:onclick];
     
     [self initTipsView];
@@ -123,7 +123,7 @@
     if (!_switchView) {
         [self addSubview:self.switchView];
     }
-    self.switchView.centerY = self.centerY;
+//    self.switchView.centerY = self.centerY;
     [self.switchView addTarget:target action:action forControlEvents:UIControlEventValueChanged];
     self.clickColor = self.bgdColor;
 }
@@ -142,7 +142,7 @@
 }
 
 - (void)setTitleTips:(NSString *_Nullable)tips {
-    self.labelTitle.bottom = self.height - self.labelTitle.height-4;
+    self.labelTitle.bottom = self.height - self.labelTitle.height - 4;
     [self setTipsText:tips];
     
     _tipsView.top = self.height/2+2;
@@ -150,7 +150,7 @@
 }
 
 - (void)setTitleTipsAttributedText:(NSAttributedString *_Nullable)tips {
-    self.labelTitle.bottom = self.height - self.labelTitle.height-4;
+    self.labelTitle.bottom = self.height - self.labelTitle.height - 4;
     [self setTipsAttributedText:tips];
     
     _tipsView.top = self.height/2+2;
@@ -205,7 +205,7 @@
     _tipsView.left = [self.title sizeWithFont:self.labelTitle.font].width + 10 + self.labelTitle.left;
 }
 
-- (void)setButtonWithTitle:(NSString *)title  buttonTarget:(nullable id)target action:(SEL _Nullable )action {
+- (void)setButtonWithTitle:(NSString *)title buttonTarget:(nullable id)target action:(SEL _Nullable )action {
     self.title = title;
     self.labelTitle.textColor = [UIColor colorWithHexString:@"333333"];
     self.isNecessary = NO;
@@ -214,7 +214,7 @@
     self.clickColor = self.bgdColor;
 
     [self setCloseButtonState];
-    [_btnClose addTarget:self action:@selector(target) forControlEvents:UIControlEventTouchUpInside];
+    [_btnClose addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
 }
 
 
@@ -229,7 +229,6 @@
     if (isCloseButtonState){
         //关闭状态
         [_btnClose setTitle:@"展开" forState:UIControlStateNormal];
-        
         _srcImView.transform = CGAffineTransformMakeRotation(0);
     } else {
         //展开状态
@@ -273,9 +272,9 @@
     }
 }
 
--(UISwitch *)switchView {
+- (UISwitch *)switchView {
     if (!_switchView) {
-        _switchView = [[UISwitch alloc]init];
+        _switchView = [[UISwitch alloc] init];
         _switchView.frame = CGRectMake(SCREEN_WIDTH - Edge - 52, (self.height - 30)/2, 52, 30);
         _switchView.onTintColor = [UIColor colorWithHexString:@"0091e8"];
     }
@@ -284,7 +283,7 @@
 
 - (UILabel *)lbtips {
     if (!_lbtips) {
-        _lbtips = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, self.width- 20, 20)];
+        _lbtips = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, self.width - 20, 20)];
         _lbtips.textColor = [UIColor colorWithHexString:@"333333"];
         _lbtips.font = [UIFont systemFontOfSize:11];
         _lbtips.textAlignment = NSTextAlignmentLeft;

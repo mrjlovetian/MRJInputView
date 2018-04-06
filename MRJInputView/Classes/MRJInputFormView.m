@@ -25,7 +25,6 @@
 
 @end
 
-
 @implementation MRJInputFormView
 
 - (instancetype)initWithFrame:(CGRect)frame {
@@ -112,7 +111,6 @@
     [self setUnitViewWithTitle:title placeholder:placeHolder unit:@""];
 }
 
-
 - (void)setSwitchWithTitle:(NSString *)title switchTarget:(nullable id)target action:(SEL)action {
     self.title = title;
     self.labelTitle.textColor = [UIColor colorWithHexString:@"333333"];
@@ -123,7 +121,6 @@
     if (!_switchView) {
         [self addSubview:self.switchView];
     }
-//    self.switchView.centerY = self.centerY;
     [self.switchView addTarget:target action:action forControlEvents:UIControlEventValueChanged];
     self.clickColor = self.bgdColor;
 }
@@ -316,7 +313,7 @@
         NSURL *boundleUrl = [[NSBundle bundleForClass:[MRJInputFormView class]] URLForResource:@"MRJInputView" withExtension:@"bundle"];
         NSBundle *citysBundle = [NSBundle bundleWithURL:boundleUrl];
         UIImage *image = [UIImage imageNamed:[citysBundle pathForResource:@"arrow_gray_up@2x" ofType:@"png"]];
-        _srcImView.image =image;
+        _srcImView.image = image;
         _srcImView.contentMode = UIViewContentModeCenter;
         _srcImView.right = _btnClose.width;
         _srcImView.centerY = _btnClose.centerY;

@@ -123,7 +123,6 @@
     return _labelTitle;
 }
 
-
 - (UITextField *)textField {
     if (!_textField) {
         _textField = [[UITextField alloc]init];

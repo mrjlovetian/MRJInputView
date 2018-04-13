@@ -12,4 +12,5 @@
 
 @property (nonatomic,strong) UIColor *bgdColor;
 @property (nonatomic,strong) UIColor *clickColor;
+
 @end

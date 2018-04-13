@@ -14,7 +14,8 @@ typedef void(^FillFormBlock)(FillFormBase *fillFrom);
 
 @property (nonatomic, strong) UISwitch *switchView;
 @property (nonatomic, strong) UISegmentedControl *segmentedControl;
-@property (nonatomic, strong) UIButton *btnClose;//展开收起
+///展开收起
+@property (nonatomic, strong) UIButton *btnClose;
 
 /// 一行点击输入初始化
 - (void)setArrowViewWithTitle:(NSString *)title placeholder:(NSString *)placeholder onClicked:(FillFormBlock)onclick;

@@ -42,19 +42,19 @@
 
 - (void)titleText {
     NSDictionary *style = @{@"remark":@[[UIColor colorWithHexString:@"b8b8b8"]]};
-    NSString *text = [NSString stringWithFormat:@"%@ <remark>%@</remark>",_title?_title:@"",_remark?_remark:@""];
+    NSString *text = [NSString stringWithFormat:@"%@ <remark>%@</remark>", _title?_title:@"", _remark?_remark:@""];
     _labelTitle.attributedText = [text attributedStringWithStyleBook:style];
 }
 
 #pragma mark -set get
 
 - (void)setPlaceholder:(NSString *)placeholder {
-    _placeholder = placeholder;
+    _placeholder = [placeholder copy];
     _labelPlaceholder.text = _placeholder;
 }
 
 - (void)setTitle:(NSString *)title {
-    _title = title;
+    _title = [title copy];
     [self titleText];
     if (_title.length) {
         _labelPlaceholder.hidden = YES;
@@ -95,12 +95,12 @@
 }
 
 - (void)setRemark:(NSString *)remark {
-    _remark = remark;
+    _remark = [remark copy];
     [self titleText];
 }
 
 - (void)setRightText:(NSString *)rightText {
-    _rightText = rightText;
+    _rightText = [rightText copy];
     
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 20, 20)];
     label.textColor = [UIColor colorWithHexString:@"333333"];

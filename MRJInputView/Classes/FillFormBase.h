@@ -14,7 +14,7 @@
     UIImageView *_necessaryImg;
 }
 
-@property (nonatomic,strong) UITextField *textField;
+@property (nonatomic, strong) UITextField *textField;
 @property (nonatomic, strong) NSString * rightText;
 @property (nonatomic, strong) UILabel *labelTitle;
 

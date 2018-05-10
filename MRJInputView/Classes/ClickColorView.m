@@ -25,7 +25,7 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    self.backgroundColor =self.clickColor;
+    self.backgroundColor = self.clickColor;
 }
 
 - (UIColor *)clickColor {

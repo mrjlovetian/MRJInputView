@@ -14,6 +14,7 @@ typedef void(^FillFormBlock)(FillFormBase *fillFrom);
 
 @property (nonatomic, strong) UISwitch *switchView;
 @property (nonatomic, strong) UISegmentedControl *segmentedControl;
+
 ///展开收起
 @property (nonatomic, strong) UIButton *btnClose;
 

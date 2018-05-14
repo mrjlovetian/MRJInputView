@@ -10,9 +10,9 @@
 #define PropetyMarco_h
 
 
-#define MF_Image(imagename) [UIImage getImageByName:imagename]
+#define MRJImage(imagename) [UIImage getImageByName:imagename]
 
-#define LRWeakSelf(type)  __weak typeof(type) weak##type = type;
-#define LRStrongSelf(type)  __strong typeof(type) type = weak##type;
+#define MRJWeakSelf(type)  __weak typeof(type) weak##type = type;
+#define MRJStrongSelf(type)  __strong typeof(type) type = weak##type;
 
 #endif /* PropetyMarco_h */

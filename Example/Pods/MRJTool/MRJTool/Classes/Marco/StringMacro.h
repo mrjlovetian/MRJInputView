@@ -10,11 +10,15 @@
 #define StringMacro_h
 
 /// 字符串处理
-#define MF_Trim(x) [x stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]]
-#define MF_SWF(FORMAT, ...) [NSString stringWithFormat:FORMAT, __VA_ARGS__]
-#define MF_ObjString(obj) [NSString stringWithFormat:@"%@", obj]
-#define MF_IntString(obj) [NSString stringWithFormat:@"%ld", obj]
-#define MF_Replace(raw,f,r) [raw stringByReplacingOccurrencesOfString:f withString:r]
-#define MF_isStringNull(string) ((string == nil || string.length == 0 || [string isEqualToString:@"(null)"]) ? YES : NO)
+/// 字符串去空格
+#define MRJTrim(x) [x stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]]
+/// 格式化字符串
+#define MRJSWF(FORMAT, ...) [NSString stringWithFormat:FORMAT, __VA_ARGS__]
+#define MRJObjString(obj) [NSString stringWithFormat:@"%@", obj]
+#define MRJIntString(obj) [NSString stringWithFormat:@"%ld", obj]
+/// 字符串替换
+#define MRJReplace(raw,f,r) [raw stringByReplacingOccurrencesOfString:f withString:r]
+/// 字符串长度判断
+#define MRJIsStringNull(string) ((string == nil || string.length == 0 || [string isEqualToString:@"(null)"]) ? YES : NO)
 
 #endif /* StringMacro_h */

@@ -114,7 +114,7 @@
 
 - (UILabel *)labelTitle {
     if (!_labelTitle) {
-        _labelTitle = [[UILabel alloc]initWithFrame:CGRectMake(27, (self.frame.size.height-20)/2.0, SCREEN_WIDTH-50, 20)];
+        _labelTitle = [[UILabel alloc]initWithFrame:CGRectMake(27, (self.frame.size.height-20)/2.0, ScreenWidth-50, 20)];
         _labelTitle.backgroundColor = [UIColor clearColor];
         _labelTitle.textAlignment = NSTextAlignmentLeft;
         _labelTitle.font = [UIFont systemFontOfSize:16];
@@ -126,7 +126,7 @@
 - (UITextField *)textField {
     if (!_textField) {
         _textField = [[UITextField alloc]init];
-        _textField.frame = CGRectMake(27, 1, SCREEN_WIDTH - 50, self.frame.size.height - 2);
+        _textField.frame = CGRectMake(27, 1, ScreenWidth - 50, self.frame.size.height - 2);
         _textField.textColor = [UIColor colorWithHexString:@"333333"];
         [_textField setValue:[UIColor colorWithHexString:@"666666"] forKeyPath:@"_placeholderLabel.textColor"];
         [_textField setValue:[UIFont systemFontOfSize:16] forKeyPath:@"_placeholderLabel.font"];
@@ -153,14 +153,14 @@
         UIImage *image = [UIImage imageNamed:[citysBundle pathForResource:@"arrow@2x" ofType:@"png"]];
         _moreIconImg = [[UIImageView alloc] initWithImage:image];
         _moreIconImg.top = (self.height - _moreIconImg.height)/2;
-        _moreIconImg.right = SCREEN_WIDTH - Edge;
+        _moreIconImg.right = ScreenWidth - Edge;
     }
     return _moreIconImg;
 }
 
 - (UILabel *)labelPlaceholder {
     if (!_labelPlaceholder) {
-        _labelPlaceholder = [[UILabel alloc]initWithFrame:CGRectMake(27, (self.frame.size.height-20)/2.0, SCREEN_WIDTH - 50, 20)];
+        _labelPlaceholder = [[UILabel alloc]initWithFrame:CGRectMake(27, (self.frame.size.height-20)/2.0, ScreenWidth - 50, 20)];
         _labelPlaceholder.textColor = [UIColor colorWithHexString:@"b3b3b3"];
         _labelPlaceholder.font = [UIFont systemFontOfSize:16];
         _labelPlaceholder.textAlignment = NSTextAlignmentLeft;
@@ -170,7 +170,7 @@
 
 - (UIView *)lineView {
     if (!_lineView) {
-        _lineView = [[UIView alloc] initWithFrame:CGRectMake(0, self.height - 0.5, SCREEN_WIDTH, 0.5)];
+        _lineView = [[UIView alloc] initWithFrame:CGRectMake(0, self.height - 0.5, ScreenWidth, 0.5)];
         _lineView.backgroundColor = [UIColor colorWithHexString:@"e5e5e5"];
     }
     return _lineView;

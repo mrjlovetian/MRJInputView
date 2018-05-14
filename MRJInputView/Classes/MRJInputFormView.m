@@ -32,8 +32,8 @@
     if (self) {
         self.isMoreIcon = NO;
         CGRect textRect = self.textField.frame;
-        textRect.size.width = SCREEN_WIDTH - 150;
-        textRect.origin.x  = SCREEN_WIDTH - 15 - (SCREEN_WIDTH - 150);
+        textRect.size.width = ScreenWidth - 150;
+        textRect.origin.x  = ScreenWidth - 15 - (ScreenWidth - 150);
         self.textField.frame = textRect;
         self.textField.placeholder = @"请输入";
         self.textField.textAlignment = NSTextAlignmentRight;
@@ -49,7 +49,7 @@
     self.textField.userInteractionEnabled = NO;
     self.isClicked = YES;
     self.onClicked = onclick;
-    self.textField.right = SCREEN_WIDTH - 30;
+    self.textField.right = ScreenWidth - 30;
     self.lineView.left = Edge;
 }
 
@@ -237,8 +237,8 @@
 - (void)setTagList:(NSArray *)tagList {
     if (!tagList || tagList.count == 0) {
         self.textField.text = @"";
-        if(self.height > Cell_H){
-            self.height = Cell_H;
+        if(self.height > CellHeight){
+            self.height = CellHeight;
             self.textField.centerY = self.centerY;
             self.moreIconImg.centerY = self.centerY;
             self.lineView.bottom = self.height;
@@ -252,7 +252,7 @@
     self.textField.text = @"  ";
     self.tagListView.height = self.tagListView.contentSize.height;
     CGFloat h = self.tagListView.bottom + 12;
-    if (h > Cell_H) {
+    if (h > CellHeight) {
         self.height = h;
         self.textField.centerY = self.centerY;
         self.moreIconImg.centerY = self.centerY;
@@ -272,7 +272,7 @@
 - (UISwitch *)switchView {
     if (!_switchView) {
         _switchView = [[UISwitch alloc] init];
-        _switchView.frame = CGRectMake(SCREEN_WIDTH - Edge - 52, (self.height - 30)/2, 52, 30);
+        _switchView.frame = CGRectMake(ScreenWidth - Edge - 52, (self.height - 30)/2, 52, 30);
         _switchView.onTintColor = [UIColor colorWithHexString:@"0091e8"];
     }
     return _switchView;
@@ -296,7 +296,7 @@
     CGFloat sw = arrs.count * 45;
     _segmentedControl = [[UISegmentedControl alloc] initWithItems: arrs];
     _segmentedControl.tintColor = [UIColor colorWithHexString:@"0091e8"];
-    _segmentedControl.frame = CGRectMake(SCREEN_WIDTH - 15 - sw, (Cell_H - 30)/2, sw, 30);
+    _segmentedControl.frame = CGRectMake(ScreenWidth - 15 - sw, (CellHeight - 30)/2, sw, 30);
     _segmentedControl.selectedSegmentIndex = 0;
     [self addSubview:_segmentedControl];
     return _segmentedControl;
@@ -305,7 +305,7 @@
 - (UIButton *)btnClose {
     if (!_btnClose){
         CGFloat dw = 48;
-        _btnClose = [[UIButton alloc] initWithFrame: CGRectMake(SCREEN_WIDTH - Edge - dw, (self.height - dw)/2, dw, dw)];
+        _btnClose = [[UIButton alloc] initWithFrame: CGRectMake(ScreenWidth - Edge - dw, (self.height - dw)/2, dw, dw)];
         _btnClose.titleLabel.font = [UIFont systemFontOfSize:11];
         [_btnClose setTitleColor:[UIColor colorWithHexString:@"999999"] forState:UIControlStateNormal];
         
@@ -326,7 +326,7 @@
 
 - (DWTagList *)tagListView {
     if (!_tagListView) {
-        _tagListView = [[DWTagList alloc] initWithFrame:CGRectMake(110, Edge, SCREEN_WIDTH - 110 - 30, 16)];
+        _tagListView = [[DWTagList alloc] initWithFrame:CGRectMake(110, Edge, ScreenWidth - 110 - 30, 16)];
         _tagListView.font = [UIFont systemFontOfSize:11];
         [_tagListView setScrollEnabled:NO];
         _tagListView.borderWidth = 0;

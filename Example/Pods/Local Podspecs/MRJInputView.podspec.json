@@ -1,6 +1,6 @@
 {
   "name": "MRJInputView",
-  "version": "0.1.0",
+  "version": "0.1.2.5",
   "summary": "文本多样性输入框",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/mrjlovetian/MRJInputView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/mrjlovetian/MRJInputView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2.5"
   },
   "platforms": {
     "ios": "8.0"

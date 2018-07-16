@@ -17,7 +17,6 @@
 @property (nonatomic, strong) UITextField *textField;
 @property (nonatomic, strong) NSString * rightText;
 @property (nonatomic, strong) UILabel *labelTitle;
-
 @property (nonatomic, strong) NSString *title; // 标题
 @property (nonatomic, strong) NSString *remark; // 标题后的备注
 @property (nonatomic, assign) BOOL isNecessary;// 是否必要的
@@ -28,6 +27,7 @@
 @property (nonatomic, strong) UILabel *labelPlaceholder;
 @property (nonatomic, strong) UIImageView *moreIconImg;
 
-#pragma mark 暂停使用
+#warning 暂停使用
 @property (nonatomic, copy) void (^onClicked)(FillFormBase *form);
+
 @end

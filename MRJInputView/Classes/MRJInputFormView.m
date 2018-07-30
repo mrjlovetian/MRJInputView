@@ -12,8 +12,7 @@
 #import "UIColor+MRJAdditions.h"
 #import "DWTagList.h"
 
-@interface MRJInputFormView()
-{
+@interface MRJInputFormView() {
     UIView *_tipsView;
     UIImageView *_tipsIconView;
     BOOL isCloseButtonState;
@@ -180,7 +179,6 @@
         [_tipsView addSubview:_tipsIconView];
         self.lbtips.left = _tipsIconView.right + 5;
         [_tipsView addSubview:self.lbtips];
-        
         [self addSubview:_tipsView];
     }
 }
@@ -294,7 +292,7 @@
         _segmentedControl = nil;
     }
     CGFloat sw = arrs.count * 45;
-    _segmentedControl = [[UISegmentedControl alloc] initWithItems: arrs];
+    _segmentedControl = [[UISegmentedControl alloc] initWithItems:arrs];
     _segmentedControl.tintColor = [UIColor colorWithHexString:@"0091e8"];
     _segmentedControl.frame = CGRectMake(ScreenWidth - 15 - sw, (CellHeight - 30)/2, sw, 30);
     _segmentedControl.selectedSegmentIndex = 0;

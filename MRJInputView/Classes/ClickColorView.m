@@ -44,8 +44,9 @@
 }
 
 - (void)RecoveryColor {
+    __weak typeof(self) weakSelf = self;
     [UIView animateWithDuration:0.2 animations:^{
-        self.backgroundColor = _bgdColor;
+        self.backgroundColor = weakSelf.bgdColor;
     }];
 }
 

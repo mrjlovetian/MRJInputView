@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ClickColorView.h"
 
-@interface FillFormBase : ClickColorView
-{
+@interface FillFormBase : ClickColorView {
     UIImageView *_necessaryImg;
 }
 

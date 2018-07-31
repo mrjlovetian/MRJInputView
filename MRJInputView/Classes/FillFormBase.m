@@ -35,9 +35,9 @@
 }
 
 - (void)BtnClick:(id)sss {
-    if (_isClicked && self.onClicked) {
-        self.onClicked(self);
-    }
+//    if (_isClicked && self.onClicked) {
+//        self.onClicked(self);
+//    }
 }
 
 - (void)titleText {

@@ -47,7 +47,7 @@
     self.textField.placeholder = placeholder;
     self.textField.userInteractionEnabled = NO;
     self.isClicked = YES;
-    self.onClicked = onclick;
+//    self.onClicked = onclick;
     self.textField.right = ScreenWidth - 30;
     self.lineView.left = Edge;
 }

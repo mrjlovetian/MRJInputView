@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MRJInputView'
-  s.version          = '0.1.2.9'
+  s.version          = '0.1.2.10'
   s.summary          = '文本多样性输入框'
 
 # This description is used to generate tags and improve search results.

@@ -292,7 +292,7 @@
         _segmentedControl = nil;
     }
     CGFloat sw = arrs.count * 45;
-    _segmentedControl = [[UISegmentedControl alloc] initWithItems:arrs];
+    _segmentedControl = [[UISegmentedControl alloc] initWithItems: arrs];
     _segmentedControl.tintColor = [UIColor colorWithHexString:@"0091e8"];
     _segmentedControl.frame = CGRectMake(ScreenWidth - 15 - sw, (CellHeight - 30)/2, sw, 30);
     _segmentedControl.selectedSegmentIndex = 0;

@@ -26,7 +26,7 @@
 @property (nonatomic, strong) UILabel *labelPlaceholder;
 @property (nonatomic, strong) UIImageView *moreIconImg;
 
-#warning 暂停使用
-@property (nonatomic, copy) void (^onClicked)(FillFormBase *form);
+//#warning 暂停使用
+//@property (nonatomic, copy) void (^onClicked)(FillFormBase *form);
 
 @end

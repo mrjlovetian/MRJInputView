@@ -33,7 +33,7 @@
         _clickColor = [UIColor colorWithHexString:@"eeeeee"];
     }
     return _clickColor;
-}
+} 
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
      [self RecoveryColor];
